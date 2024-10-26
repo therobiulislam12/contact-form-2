@@ -45,9 +45,9 @@ class Menu{
     }
 
     public function cf2_main_admin_page(){
-        echo '<h1>I am working</h1>';
+        require_once CF2_FILE . '/includes/Admin/views/main.view.php';
     }
     public function cf2_main_add_new_form_page(){
-        echo '<h1>I am Add New</h1>';
+        require_once CF2_FILE . '/includes/Admin/views/add-new.view.php';
     }
 }
